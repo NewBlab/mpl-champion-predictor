@@ -43,7 +43,7 @@ num_teams = st.slider("How many teams to evaluate?", 1, 6, 3)
 team_inputs = []
 
 for i in range(num_teams):
-  4  st.subheader(f"📊 Team {i+1} Stats Input")
+  st.subheader(f"📊 Team {i+1} Stats Input")
     team_name = st.text_input(f"Team {i+1} Name", value=f"Team {i+1}", key=f"name{i}")
     cols = st.columns(3)
 
